@@ -1,5 +1,5 @@
 import './App.css';
-// import Aboutus from './components/Aboutus';
+import Aboutus from './components/Aboutus';
 import Navbar from './components/Navbar';
 import TextForm from './components/TextForm';
 import React, {useState} from 'react';
@@ -60,7 +60,6 @@ function App() {
       <Alert alert={alert}/>
       <div className="container my-3">
         <TextForm heading="Enter a text to analyze below" showAlert = {showAlert} toggleMode={toggleMode} textColor={textColor} backColor={backColor}/>
-        {/* <Aboutus/> */}
       </div>
     </>
   );
